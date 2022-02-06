@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 60px;
+}
+.bookForm{
+  display: flex;
+  flex-direction: column;
+}
+
+.deletebtn{
+  margin: 10px;
+}
+
+.deletebtn:hover{
+cursor: pointer;
+}
+
+.formInput{
+  width: 100%;
+}
